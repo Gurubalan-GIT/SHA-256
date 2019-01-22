@@ -1,7 +1,7 @@
 package guru.security.sha_256;
 
 import java.util.Scanner;
-
+//importing function directly to avoid object memory allocation
 import static guru.security.sha_256.SHAHasher.applySha256;
 
 public class SHA {
